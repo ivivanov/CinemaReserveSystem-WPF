@@ -1,0 +1,5 @@
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.EntityModels\bin\Debug\CinemaReserve.EntityModels.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.EntityModels\bin\Debug\CinemaReserve.EntityModels.pdb
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.EntityModels\obj\Debug\CinemaReserve.EntityModels.pdb

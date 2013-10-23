@@ -1,0 +1,5 @@
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.ResponseModels\bin\Debug\CinemaReserve.ResponseModels.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.ResponseModels\bin\Debug\CinemaReserve.ResponseModels.pdb
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.ResponseModels\obj\Debug\CinemaReserve.ResponseModels.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.ResponseModels\obj\Debug\CinemaReserve.ResponseModels.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemaReserve.ResponseModels\obj\Debug\CinemaReserve.ResponseModels.pdb

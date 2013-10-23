@@ -1,0 +1,10 @@
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.dll.config
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\CinemReserve.Data.pdb
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\CinemaReserve.EntityModels.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\EntityFramework.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\CinemaReserve.EntityModels.pdb
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\bin\Debug\EntityFramework.xml
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.dll
+C:\Users\Ivan\Downloads\XAML-WPF-Exam-Sept-2013\CinemaReserve\CinemReserve.Data\obj\Debug\CinemReserve.Data.pdb

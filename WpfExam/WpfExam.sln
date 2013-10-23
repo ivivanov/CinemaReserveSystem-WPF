@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfExam", "WpfExam\WpfExam.csproj", "{494986AC-9C11-4098-A8DF-D03EEB20861A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaReserve.ResponseModels", "CinemaReserve.ResponseModels\CinemaReserve.ResponseModels.csproj", "{67E3FA11-FA3D-4F72-A272-70B23C2B1FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{494986AC-9C11-4098-A8DF-D03EEB20861A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494986AC-9C11-4098-A8DF-D03EEB20861A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494986AC-9C11-4098-A8DF-D03EEB20861A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494986AC-9C11-4098-A8DF-D03EEB20861A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E3FA11-FA3D-4F72-A272-70B23C2B1FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E3FA11-FA3D-4F72-A272-70B23C2B1FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E3FA11-FA3D-4F72-A272-70B23C2B1FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E3FA11-FA3D-4F72-A272-70B23C2B1FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

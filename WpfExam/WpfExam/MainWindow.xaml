@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModels="clr-namespace:WpfExam.ViewModels"
+        xmlns:Converters="clr-namespace:WpfExam.Converters"
+        xmlns:Views="clr-namespace:WpfExam.Views"
+        Title="MainWindow" Height="800" Width="1200">
+    <Window.DataContext>
+        <ViewModels:AppViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type ViewModels:CinemasViewModel}">
+            <Views:CinemasView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModels:AllMoviesViewModel}">
+            <Views:AllMoviesView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModels:SearchViewModel}">
+            <Views:SearchMovieView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type ViewModels:ReserveViewModel}">
+            <Views:ReserveView/>
+        </DataTemplate>
+
+
+        <Converters:BoolToVisibilityConverter x:Key="boolToVisibilityConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock FontSize="28" FontFamily="Comic Sans MS, Verdana"> Cinema Reservation System</TextBlock>
+        </StackPanel>
+        
+        <DockPanel VerticalAlignment="Center" Grid.Row="1" Name="Header" Margin="5" LastChildFill="False" >
+            <Button DockPanel.Dock="Left" Margin="5" Padding="5" MinWidth="100" Command="{Binding Path=OpenCinemasViewCommand}">Cinemas</Button>
+            <Button DockPanel.Dock="Left" Margin="5" Padding="5" MinWidth="100" Command="{Binding Path=OpenAllMoviesViewCommand}">All Movies</Button>
+            <Button DockPanel.Dock="Left" Margin="5" Padding="5" MinWidth="100" Command="{Binding Path=OpenSearchViewCommand}">Search Movies</Button>
+        </DockPanel>
+
+        <TextBlock FontSize="16" Grid.Row="2" Text="{Binding Path=CurrentViewModel.Message}"></TextBlock>
+
+        <Grid Grid.Row="3" >
+            <DockPanel>
+                <StackPanel Name="HeaderContainer"
+                        Visibility="{Binding Path=LoggedInUser,Converter={StaticResource boolToVisibilityConverter}}"
+                        DockPanel.Dock="Top">
+                    <ItemsControl ItemsSource="{Binding ViewModels}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding Name}"
+                                    Command="{Binding Path=DataContext.ChangeViewModel, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                    CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+                <ContentControl DockPanel.Dock="Bottom" Content="{Binding CurrentViewModel}" />
+            </DockPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="Footer">Telerik Academy 2013 - Reservation System</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
